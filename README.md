@@ -1,11 +1,7 @@
-# thelounge-theme-nord
+# thelounge-theme-seraphimrp
 
-Nordify your lounge.
+A personal theme.
 
 ## Install
 
-> `thelounge install thelounge-theme-nord`
-
-## Credits
-
-This theme is based on [SpaceLenore](https://github.com/SpaceLenore)'s [thelounge-theme-dracula](https://github.com/SpaceLenore/thelounge-theme-dracula), as I liked the layout CSS.
+> `thelounge install thelounge-theme-seraphimrp`
