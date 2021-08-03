@@ -1,15 +1,15 @@
 {
   "name": "thelounge-theme-seraphimrp",
-  "description": "Personal theme for thelounge",
-  "version": "1.0.8",
+  "description": "A personal theme, derived from thelounge-theme-nord.",
+  "version": "1.0.9",
   "keywords": [
     "thelounge",
     "thelounge-theme"
   ],
-  "homepage": "https://github.com/SeraphimRP/thelounge-theme",
+  "homepage": "https://github.com/SeraphimRP/thelounge-theme-seraphimrp",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SeraphimRP/thelounge-theme.git"
+    "url": "git+https://github.com/SeraphimRP/thelounge-theme-seraphimrp.git"
   },
   "license": "MIT",
   "main": "package.json",
