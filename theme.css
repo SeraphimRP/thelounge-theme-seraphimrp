@@ -39,6 +39,14 @@ body {
     line-height: 30px !important;
 }
 
+#sidebar .network.collapsed .collapse-network-icon {
+    transform: rotate(-90deg) translate(10%);
+}
+
+#sidebar .network .collapse-network {
+    width: none;
+}
+
 :root {
     --body-bg-color: #2e3440;
     --window-bg-color: #2e3440;
