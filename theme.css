@@ -1,14 +1,42 @@
 /*!
- * Nord theme for TheLounge by SeraphimRP
+ * Personal theme for TheLounge by SeraphimRP
  *
- * Based on Dracula by SpaceLenore, based on Solarized css file
+ * Based on Nord by SeraphimRP, based on Dracula by SpaceLenore, based on Solarized css file
  * License: MIT
- * Repo: https://github.com/SeraphimRP/thelounge-theme-nord/
+ * Repo: https://github.com/SeraphimRP/thelounge-theme/
  */
 
 /* Samsung Internet and Microsoft Edge (yes, both of them use -webkit- prefix) */
 ::-webkit-input-placeholder {
     color: var(--body-color-muted);
+}
+
+body {
+    font: 16px JetBrains Mono,-apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial;
+}
+
+#form,
+.messages .msg,
+.userlist,
+#sidebar .empty,
+.channel-list-item,
+.channel-list-item[data-type="lobby"],
+.input,
+#context-menu,
+.mentions-popup,
+.textcomplete-menu,
+.header .title,
+.header .topic {
+    font-size: 12px;
+}
+
+.input {
+    height: 30px;
+    line-height: 30px;
+}
+
+.jump-to-input::before {
+    line-height: 30px !important;
 }
 
 :root {
