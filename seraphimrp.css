@@ -1,39 +1,14 @@
 /*!
- * Personal theme for TheLounge by SeraphimRP
+ * Nord theme for TheLounge by SeraphimRP
  *
- * Based on Nord by SeraphimRP, based on Dracula by SpaceLenore, based on Solarized css file
+ * Based on Dracula by SpaceLenore, based on Solarized css file
  * License: MIT
- * Repo: https://github.com/SeraphimRP/thelounge-theme/
+ * Repo: https://github.com/SeraphimRP/thelounge-theme-nord/
  */
 
 /* Samsung Internet and Microsoft Edge (yes, both of them use -webkit- prefix) */
 ::-webkit-input-placeholder {
     color: var(--body-color-muted);
-}
-
-body {
-    font: 16px JetBrains Mono,-apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial;
-}
-
-#form,
-.messages .msg,
-.userlist,
-.input,
-#context-menu,
-.mentions-popup,
-.textcomplete-menu,
-.header .title,
-.header .topic {
-    font-size: 12px;
-}
-
-.input {
-    height: 30px;
-    line-height: 30px;
-}
-
-.jump-to-input::before {
-    line-height: 30px !important;
 }
 
 :root {
@@ -51,6 +26,7 @@ body {
     --sidebar-color: #3b4252;
     --background-light-color: #44475a;
     --background-error: #bf616a;
+    --window-heading-color: #8fbcbb;
 }
 
 ::placeholder {
@@ -73,6 +49,12 @@ body {
 html {
     scrollbar-color: #2e3440 #8fbcbb;
     scrollbar-width: thin;
+}
+
+#chat .msg[data-type="notice"] .content,
+#chat .msg[data-type="notice"] .time,
+#chat .msg[data-type="notice"] .user {
+    color: var(--highlight-color);
 }
 
 #loading .logo,
@@ -386,4 +368,31 @@ body {
 #viewport .lt,
 #viewport .rt {
     color: var(--button-color);
+}
+
+/* personal modifications begin here */
+
+body {
+    font-family: "JetBrains Mono";
+}
+
+#form,
+.messages .msg,
+.userlist,
+.input,
+#context-menu,
+.mentions-popup,
+.textcomplete-menu,
+.header .title,
+.header .topic {
+    font-size: 12px;
+}
+
+.input {
+    height: 30px;
+    line-height: 30px;
+}
+
+.jump-to-input::before {
+    line-height: 30px !important;
 }
