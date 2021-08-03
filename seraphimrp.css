@@ -18,9 +18,6 @@ body {
 #form,
 .messages .msg,
 .userlist,
-#sidebar .empty,
-.channel-list-item,
-.channel-list-item[data-type="lobby"],
 .input,
 #context-menu,
 .mentions-popup,
@@ -37,14 +34,6 @@ body {
 
 .jump-to-input::before {
     line-height: 30px !important;
-}
-
-#sidebar .network.collapsed .collapse-network-icon {
-    transform: rotate(-90deg) translate(10%);
-}
-
-#sidebar .network .collapse-network {
-    width: none;
 }
 
 :root {

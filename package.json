@@ -1,7 +1,7 @@
 {
-  "name": "@seraphimrp/thelounge-theme",
+  "name": "thelounge-theme-seraphimrp",
   "description": "Personal theme for thelounge",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "keywords": [
     "thelounge",
     "thelounge-theme"
@@ -16,14 +16,14 @@
   "thelounge": {
     "name": "SeraphimRP",
     "type": "theme",
-    "css": "theme.css"
+    "css": "seraphimrp.css"
   },
   "devDependencies": {
     "stylelint": "^10.1.0",
     "stylelint-config-standard": "^18.3.0"
   },
   "scripts": {
-    "test": "stylelint theme.css",
-    "format": "stylelint --fix theme.css"
+    "test": "stylelint seraphimrp.css",
+    "format": "stylelint --fix seraphimrp.css"
   }
 }
