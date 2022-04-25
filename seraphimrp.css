@@ -7,7 +7,7 @@
  */
 
 /* Samsung Internet and Microsoft Edge (yes, both of them use -webkit- prefix) */
-::-webkit-input-placeholder {
+::input-placeholder {
     color: var(--body-color-muted);
 }
 
@@ -35,15 +35,15 @@
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    background: hsla(232, 14%, 31%, 0.4);
+    background: hsl(232deg 14% 31% / 40%);
 }
 
 ::-webkit-scrollbar-thumb:vertical:hover {
-    background: hsla(232, 14%, 31%, 0.5);
+    background: hsl(232deg 14% 31% / 50%);
 }
 
 ::-webkit-scrollbar-thumb:vertical:active {
-    background: hsla(232, 14%, 31%, 0.6);
+    background: hsl(232deg 14% 31% / 60%);
 }
 
 html {
@@ -176,7 +176,7 @@ body {
 .btn:active,
 .btn:focus,
 .input:focus {
-    box-shadow: 0 0 0 3px rgba(143, 188, 187, 0.5);
+    box-shadow: 0 0 0 3px rgb(143 188 187 / 50%);
 }
 
 .input:not(:disabled):focus,
@@ -339,7 +339,7 @@ body {
 
 @media (max-width: 768px) {
     #sidebar-overlay {
-        background: rgba(0, 0, 0, 0.8);
+        background: rgb(0 0 0 / 80%);
     }
 }
 
@@ -391,7 +391,7 @@ body {
 /* personal modifications begin here */
 
 body {
-    font: 16px JetBrains Mono;
+    font: 16px "JetBrains Mono";
 }
 
 #form,
